@@ -1,0 +1,295 @@
+img {
+    max-width: 100%;
+}
+
+.login-wrap {
+    margin-top: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.image-circle {
+    padding: 5px;
+    background-color: #ffffffb8;
+}
+
+.error {
+    color: red;
+}
+
+.image {
+    width: 80px;
+}
+
+.header {
+    background-color: #d9d8e4;
+}
+
+
+h3 {
+    display: inline-block;
+}
+
+.menu {
+    background-color: #0e539a;
+    font-size: 20px;
+
+}
+
+.menu a {
+    color: white !important;
+}
+
+.menubar li:hover {
+    background-color: #063261;
+    color: white;
+}
+
+.menubar li {
+    border-left: 1px #335373 solid;
+    padding: 0px 20px;
+    width: auto;
+}
+
+.menu .menubar-1 a {
+    color: black !important;
+    background-color: white;
+    height: 26px;
+    width: 32px;
+    padding: 3px 5px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.menubar-1 a:hover {
+    background-color: #bcc3c9;
+}
+
+.card img {
+    max-height: 100%;
+}
+
+.card img {
+    max-width: 100%;
+    transition: all 0.4s;
+    display: block;
+    width: 100%;
+    height: 250px;
+    transform: scale(1);
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.card {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #d9d8e4;
+    height: 100px;
+    line-height: 100px;
+}
+
+.footer a {
+    color: #fff;
+    height: 35px;
+    width: 35px;
+    border-radius: 17px;
+}
+
+.footer ul li {
+    list-style: none;
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+.footer_icon .facebook {
+    background-color: blue;
+    text-align: center;
+    line-height: 36px;
+}
+
+.footer_icon .twitter {
+    background-color: skyblue;
+    text-align: center;
+    line-height: 36px;
+}
+
+.footer_icon .youtube {
+    background-color: red;
+    text-align: center;
+    line-height: 35px;
+}
+
+.footer_icon .insta {
+    background-color: #e810a5;
+    text-align: center;
+    line-height: 35px;
+}
+
+.readmore img {
+    width: 40%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+}
+
+.cart img {
+    width: 65px;
+}
+
+.cart .row {
+
+    border-top: 1px solid #000;
+}
+
+.addpost form textarea {
+    height: 200px;
+}
+
+.addpost {
+    background-image: linear-gradient(322deg, #464c4d, #e7e7ed8a);
+}
+
+.topnav a {
+    border: 1px solid #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.details img {
+    height: 350px;
+    object-fit: cover;
+}
+
+.details h1 {
+    font-family: ui-rounded;
+    color: silver;
+
+}
+
+.details img {
+    transform-origin: 75% 85%;
+    transition: transform 1s, filter .5s ease-out;
+}
+
+.details img:hover {
+    transform: scale(1.2);
+}
+
+.details h4,
+h5 {
+    color: #7b6666;
+    font-family: serif;
+}
+
+.details p {
+    font-size: 18px;
+    color: #9a9191;
+    font-family: none;
+}
+
+.allpost img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+
+.dashboard .navbar-nav {
+    display: block !important;
+}
+
+.dashboard {
+    display: block !important;
+    width: fit-content;
+    padding: 10px !important;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+
+.dashboard span {
+    color: #fff !important;
+}
+
+.dashboard img {
+    border-radius: 105px;
+    border: 2px solid royalblue;
+    width: 50%;
+}
+
+.dashboard h4 {
+    font-size: 15px;
+}
+
+.dashboard li:hover {
+    border-radius: 5px;
+    background-color: rgb(71 81 96 / 7%);
+}
+
+.addbrand table {
+    width: 50% !important;
+}
+
+.pagination ul {
+    display: flex;
+}
+
+.pagination li {
+    margin-left: 5px;
+    background-color: #000;
+    padding: 3px 7px 3px 7px;
+    border-radius: 3px;
+}
+
+.pagination a {
+    color: #fff;
+}
+
+.search_btn form {
+    display: flex;
+}
+
+.payment {
+    box-shadow: 0px 0px 8px 1px;
+    width: 40%;
+    padding: 97px;
+    border: 1px solid #e7e4e4;
+    margin-top: 90px;
+
+}
+
+.payment .cancel button {
+    padding: 2px 2px;
+}
+
+.bill h2,
+.bill p {
+    font-family: sans-serif;
+}
+
+.bill {
+    border: 1px solid #d7d3d3;
+    width: 50%;
+    box-shadow: 0px 1px 6px 1px #ddd3d3;
+    border: 1px solid #d7d3d3;
+    width: 50%;
+    background-image: linear-gradient(182deg, #b4b0bd, #4739ba00);
+    padding: 30px;
+}
+
+.date {
+    margin-left: 230px;
+}
+
+.totalamount {
+    text-align: center;
+}
